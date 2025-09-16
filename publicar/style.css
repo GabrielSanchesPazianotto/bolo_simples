@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bolo: #ff5e00
+}
+
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #dacfc6;
+    padding: 20px;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(225deg, rgba(255, 255, 255, .04) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(45deg, rgba(0, 0, 0, .18) 25%, transparent 25%) 0 0/32px 32px,
+        linear-gradient(315deg, rgba(0, 0, 0, .18) 25%, transparent 25%) 0 0/32px 32px,
+        var(--bolo);
+}
+
+main {
+    max-width: 700px;
+    position: relative;
+    background-color: #e9b167;
+    padding: 20px;
+    /* desgruda elementaos das bordas*/
+    border-radius: 15px;
+    /* arredondamento bordas*/
+    box-shadow: 3px 3px 15px #2f2f2f;
+    /* sobras valores positivos são direita e rodapé , último valor é expansão dasombra*/
+}
+
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    box-shadow: 2px 2px 10px #5e5c5a;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    box-sizing: 1px 1px 2px #000;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*
+Usar tag aplica em todas as tags do doc
+Usar classe  , aplica apenas onde tiver classe - pode repetir - chamada .classe
+Usar ID, aplicativos 
+*/
+/*tag ou classe*/
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    box-sizing: 1px 1px 2px #1f1e1e;
+}
+
+ul li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+#footer {
+    max-width: 700px;
+    text-align: center;
+    line-height: 80px;
+}
